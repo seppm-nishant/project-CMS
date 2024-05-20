@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primaryBtn {
+  @apply px-6 py-3 rounded-md bg-black text-white font-semibold;
+}
+
+.icon {
+  @apply text-gray-600 hover:text-gray-700 cursor-pointer;
+}
+
+.label {
+  @apply text-sm font-semibold text-gray-700;
+}
+
+.input {
+  @apply w-full p-1 text-xl text-gray-800 border rounded-sm focus:outline-black mb-2 bg-white;
+}
